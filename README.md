@@ -59,5 +59,5 @@ There won't be any aditional development on this project
 ## Author
 
 -   Website - sadly no personal website yet, but you can check out my linked in profile [here](https://www.linkedin.com/in/murytarlah)
--   Frontend Mentor - [@murylearn](https://www.frontendmentor.io/profile/murytarlah)
+-   Frontend Mentor - [@murytarlah](https://www.frontendmentor.io/profile/murytarlah)
 -   Twitter - [@murytarlah](https://www.twitter.com/murytarlah)
