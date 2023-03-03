@@ -13,7 +13,7 @@
 /* base styles */
 
 body{
-  background-color: var(--light-gray);
+	background-color: var(--light-gray);
 	font-size: 12px;
 	font-family:'Outfit', Tahoma, Geneva, Verdana, sans-serif;
 	display: flex;
@@ -25,7 +25,7 @@ body{
 }
 
 h1{
-  font-size: 1.8em;
+	font-size: 1.8em;
 	opacity: 0;
 	width: 100%;
 	margin: 20px auto;
@@ -39,7 +39,7 @@ h1{
 }
 
 p{
-  font-size: 1.25em;
+	font-size: 1.25em;
 	opacity: 0;
 	margin: 20px auto;
 	animation-name: slide-down;
@@ -63,12 +63,12 @@ img{
 
 .qr-component{
 	background-color: var(--white);
-  width: 80%;
+	width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 15px;
 	border-radius: 20px;
-  max-width: 280px;
+	max-width: 280px;
 	text-align: center;
 }
 
@@ -100,6 +100,61 @@ img{
 	opacity: .7;
 	backdrop-filter: blur(50%);
 	grid-row: 1/13;
+}
+
+.qr-component__image__bg span:nth-child(even){
+	animation: slide-down-bg 1s ease-in-out .1s 1  forwards;
+}
+
+.qr-component__image__bg span:nth-child(odd){
+	animation: slide-up-bg 1s ease-in-out .1s 1  forwards;
+}
+
+/* =========================================== */
+
+
+
+/* animation styles */
+
+@keyframes slide-up{
+	from{
+		transform: translateY(30%);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}
+
+@keyframes slide-down{
+	from{
+		transform: translateY(-30%);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}
+
+
+@keyframes slide-up-bg{
+	from{
+		transform: translateY(0%) skewY(45deg);
+	}
+	to{
+		transform: translateY(-100%);
+	}
+}
+
+@keyframes slide-down-bg{
+	from{
+		transform: translateY(0%) skewY(45deg);
+	}
+	to{
+		transform: translateY(100%);
+	}
 }
 
 /* =========================================== */
