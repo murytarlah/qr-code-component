@@ -27,7 +27,7 @@ The challenge is to build out this QR code component and get it looking as close
 
 ### Links
 
--   Solution URL: [Git Repository](https://github.com/murylearn/qr-code-component)
+-   Solution URL: [Git Repository](https://github.com/murytarlah/qr-code-component)
 -   Live Site URL: [Live Preview](https://murytarlah.github.io/qr-code-component/)
 
 ## My process
